@@ -29,14 +29,16 @@ function ProjectCard({ project, index, section }) {
         >
           {section.githubLabel}
         </a>
-        <a
-          href={project.liveLink}
-          target="_blank"
-          rel="noreferrer"
-          className="text-sm font-semibold text-slate-700 transition group-hover:text-slate-900 dark:text-slate-300 dark:group-hover:text-white"
-        >
+        {project.liveLink && (
+          <a
+            href={project.liveLink}
+            target="_blank"
+            rel="noreferrer"
+            className="text-sm font-semibold text-slate-700 transition group-hover:text-slate-900 dark:text-slate-300 dark:group-hover:text-white"
+          >
           {section.liveLabel}
         </a>
+        )}
       </div>
     </Reveal>
   )

@@ -1,16 +1,14 @@
-import { tr } from "framer-motion/client";
-
 const portfolioData = {
   personalInfo: {
     name: "Ronak Gondaliya",
     role: "BTech IT Student | Full-Stack Developer | Competitive Programmer",
     tagline: "Building scalable systems and solving complex DSA problems consistently.",
     bio: "I am a BTech Information Technology student at Dharmsinh Desai University with a strong focus on full-stack development and competitive programming. I enjoy building scalable systems like Campus Connect and strengthening problem-solving skills through consistent practice across multiple coding platforms.",
-    availability: "Open for internships, freelance work, and collaboration",
+    availability: "Open for job opportunities, freelance work, and collaboration",
     location: "India",
     resumeLink: "https://drive.google.com/file/d/1w-wQMjuwCpfyye5NVcHe5kd_HMHFMh_S/view",
     heroStats: [
-      { label: "LeetCode Problems", value: "700+" },
+      { label: "LeetCode Problems", value: "750+" },
       { label: "Codeforces Max Rating", value: "1249" },
       { label: "CodeChef Rating", value: "1652 (3★)" }
     ],
@@ -126,27 +124,39 @@ const portfolioData = {
       items: [
         { name: "React", primary: true },
         { name: "Spring Boot", primary: true },
+        { name: "Tailwind CSS", primary: true },
         { name: "Spring Security", primary: true },
+        { name: "JWT", primary: true },
+        {name: "MySQL", primary: true },
+        {name: "Redis", primary: false },
+        {name: "HTML", primary: false },
+        { name: "CSS", primary: false },
+        {name : "JavaScript", primary: false },
         { name: "JSP", primary: false },
         { name: "Servlet", primary: false },
-        { name: "JWT", primary: false }
+        { name: "Bootstrap", primary: false },
+        
       ]
     },
     android: {
       title: "Android",
       items: [
         { name: "Java", primary: true },
-        { name: "Firebase", primary: true }
+        { name: "Firebase", primary: true },
+        {name:"xml", primary: true},
+        {name:"Material Design", primary: false}
       ]
     },
     tools: {
       title: "Tools",
       items: [
-        { name: "Git", primary: false },
+        { name: "IntelliJ IDEA", primary: true },
         { name: "GitHub", primary: true },
-        { name: "Postman", primary: false },
         { name: "VS Code", primary: true },
-        { name: "IntelliJ IDEA", primary: true }
+        { name:"Android Studio", primary: true},
+        { name: "Git", primary: false },
+        { name: "Postman", primary: false },
+        
       ]
     },
     coreConcepts: {
@@ -154,7 +164,10 @@ const portfolioData = {
       items: [
         { name: "Data Structures & Algorithms", primary: true },
         { name: "Object-Oriented Programming", primary: true },
-        { name: "Competitive Programming", primary: true }
+        {name: "System Design", primary: true },
+        { name: "Competitive Programming", primary: true },
+        { name: "Database Management", primary: true },
+        
       ]
     }
   },
@@ -172,14 +185,19 @@ const portfolioData = {
       description: "Android app to track daily expenses with Firebase authentication and real-time database storage.",
       techStack: ["Java", "Android", "Firebase"],
       githubLink: "https://github.com/ronak1743/Expense-Tracker",
-      liveLink: "https://github.com/ronak1743/Expense-Tracker"
     },
     {
       title: "Sudoku Ninja",
       description: "Interactive Sudoku game with solver, generator, hints, timer, and scoring using backtracking.",
       techStack: ["Java", "AWT", "Backtracking", "OOP"],
       githubLink: "https://github.com/ronak1743/Sudoku-Ninja",
-      liveLink: "https://github.com/ronak1743/Sudoku-Ninja"
+      
+    },
+    {
+      title:"ATM Simulator System",
+      description:"A Java-based ATM simulator built with Java AWT, JDBC, and MySQL. Features login (Card No + PIN), deposits, withdrawals, quick withdrawals, balance inquiry, PIN change, and transaction history for realistic ATM operations.",
+      techStack:["Java", "AWT", "JDBC", "MySQL"],
+      githubLink:"https://github.com/ronak1743/ATM_Simulation",
     }
   ],
 
