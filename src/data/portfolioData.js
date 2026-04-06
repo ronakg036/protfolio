@@ -206,7 +206,7 @@ const portfolioData = {
       platform: "LeetCode",
       iconText: "LC",
       metricLabel: "Problems Solved",
-      metricValue: "700+",
+      metricValue: "750+",
       profileLink: "https://leetcode.com/u/gondaliyaronak78/"
     },
     {
@@ -252,7 +252,7 @@ const portfolioData = {
     },
     {
       title: "LeetCode Top 15%",
-      value: "700+ Problems",
+      value: "750+ Problems",
       detail: "Consistent problem solving across multiple topics."
     },
     {
