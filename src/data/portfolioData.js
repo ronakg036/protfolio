@@ -8,7 +8,7 @@ const portfolioData = {
     location: "India",
     resumeLink: "https://drive.google.com/file/d/1w-wQMjuwCpfyye5NVcHe5kd_HMHFMh_S/view",
     heroStats: [
-      { label: "LeetCode Problems", value: "750+" },
+      { label: "LeetCode Problems", value: "850+" },
       { label: "Codeforces Max Rating", value: "1249" },
       { label: "CodeChef Rating", value: "1652 (3★)" }
     ],
@@ -92,7 +92,7 @@ const portfolioData = {
       institution: "Dharmsinh Desai University, Gujarat",
       degree: "B.Tech in Information Technology",
       duration: "2023 - Present",
-      detail: "CGPA: 9.23"
+      detail: "CGPA: 9.18"
     },
     {
       institution: "Sarvodaya Science School (GHSEB)",
@@ -147,6 +147,31 @@ const portfolioData = {
         {name:"Material Design", primary: false}
       ]
     },
+    coreConcepts: {
+      title: "Core Concepts",
+      items: [
+        { name: "Data Structures & Algorithms", primary: true },
+        { name: "Object-Oriented Programming", primary: true },
+        { name: "Competitive Programming", primary: true },
+        { name: "Database Management", primary: true },
+        
+      ]
+    },
+    systemDesign: {
+    title: "System Design",
+    items: [
+      { name: "Low-Level Design (LLD)", primary: true },
+      { name: "High-Level Design (HLD)", primary: true },
+      { name: "SOLID Principles", primary: true },
+      { name: "Design Patterns", primary: true },
+      { name: "Caching", primary: true },
+      { name: "Message Queues", primary: false },
+      { name: "Microservices", primary: false },
+      { name: "Load Balancing", primary: false },
+      { name: "Distributed Systems", primary: false }
+    ]
+  },
+
     tools: {
       title: "Tools",
       items: [
@@ -158,33 +183,24 @@ const portfolioData = {
         { name: "Postman", primary: false },
         
       ]
-    },
-    coreConcepts: {
-      title: "Core Concepts",
-      items: [
-        { name: "Data Structures & Algorithms", primary: true },
-        { name: "Object-Oriented Programming", primary: true },
-        {name: "System Design", primary: true },
-        { name: "Competitive Programming", primary: true },
-        { name: "Database Management", primary: true },
-        
-      ]
     }
+    
   },
 
   projects: [
     {
       title: "Campus Connect",
       description: "A scalable full-stack platform for college communication, research sharing, club management, and announcements.",
-      techStack: ["React", "Tailwind CSS", "Spring Boot", "SQL", "JWT", "Redis"],
+      techStack: ["React", "Tailwind CSS", "Spring Boot", "SQL", "JWT", "Redis","Docker"],
       githubLink: "https://github.com/vasuchandrani/Campus-Connect",
       liveLink: "https://campus-conect.xyz"
     },
     {
-      title: "Expense Tracker App",
-      description: "Android app to track daily expenses with Firebase authentication and real-time database storage.",
-      techStack: ["Java", "Android", "Firebase"],
-      githubLink: "https://github.com/ronak1743/Expense-Tracker",
+      title: "PriceHawk",
+      description: "A full-stack price tracking Chrome extension and Spring Boot platform for Amazon and Flipkart, featuring cross-platform deal matching, SVG price history analytics, and automated email drop alerts.",
+      techStack: ["React", "Spring Boot", "Java", "Chrome Manifest V3", "SQL", "Docker", "JWT", "Jsoup"],
+      githubLink: "https://github.com/ronak1743/PriceHawk",
+      liveLink: "https://github.com/ronak1743/PriceHawk/releases"
     },
     {
       title: "Sudoku Ninja",
@@ -206,7 +222,7 @@ const portfolioData = {
       platform: "LeetCode",
       iconText: "LC",
       metricLabel: "Problems Solved",
-      metricValue: "750+",
+      metricValue: "850+",
       profileLink: "https://leetcode.com/u/gondaliyaronak78/"
     },
     {
@@ -227,14 +243,14 @@ const portfolioData = {
       platform: "GeeksforGeeks",
       iconText: "GFG",
       metricLabel: "Problems Solved",
-      metricValue: "400+",
+      metricValue: "480+",
       profileLink: "https://www.geeksforgeeks.org/user/ronak1743/"
     },
     {
       platform: "Codolio",
       iconText: "CD",
       metricLabel: "Total Problems",
-      metricValue: "1600+",
+      metricValue: "1900+",
       profileLink: "https://codolio.com/profile/Ronak78"
     }
   ],
@@ -252,12 +268,12 @@ const portfolioData = {
     },
     {
       title: "LeetCode Top 15%",
-      value: "750+ Problems",
+      value: "850+ Problems",
       detail: "Consistent problem solving across multiple topics."
     },
     {
       title: "Total Problems Solved",
-      value: "1600+",
+      value: "1900+",
       detail: "Across LeetCode, Codeforces, GFG, and Codolio."
     }
   ],
